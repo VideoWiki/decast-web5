@@ -1,0 +1,35 @@
+{
+    "Welcome":{
+      "title":"Welcome to VideoWiki Class",
+      "para":"VideoWiki Class allows you to create your own rooms to host sessions or join others using a short and convenient link"
+    },
+
+    "Features":{
+        "title1":"VideoWiki Features",
+        "title2":"vitae ligula erat. Phasellus pulvinar, nisl vel eleifend",
+        "record_t":"Record and Playback",
+        "record_p":"Allows you to record your content and to playback at convenient time.",
+        "white_t":"Whiteboard",
+        "white_p":"Allows you to elucidate about a topic with a better visual presentation.",
+        "screenShare_t":"Screen Sharing",
+        "screenShare_p":"Share your screen to explain the content right through your desktop.",
+        "audio_t":"Audio",
+        "audio_p":"Enables you to include your own voice pieces in tune with the video.",
+        "present_t":"Presentation",
+        "present_p":"Upload your own files, documents (PDFs , Microsoft office documents and other presentations).",
+        "webcam_t":"Webcam",
+        "webcam_p":"Have an interactive meeting with the webcam support.",
+        "emoji_t":"Emoji",
+        "emoji_p":"Makes learning a two way path by allowing users to use emoji for questions and feedbacks.",
+        "polling_t":"Polling",
+        "polling_p":"Know the interest of your audience with frequent polls and updates.",
+        "chat_t":"Chat",
+        "chat_p":"Reach out to the creators and learners by dropping a message for them.",
+        "live_t":"Live Captioning",
+        "live_p":"Include real time captions to your presentations.",
+        "break_t":"Breakout Rooms",
+        "break_p":"Divide and effectively rule by addressing only to the concerned individuals.",
+        "screenRead_t":"Screen Reader",
+        "screenRead_p":"Help users with disabilities to have an easy and interactive experience on Videowiki."
+    }
+}

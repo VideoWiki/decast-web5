@@ -1,0 +1,12 @@
+{
+    "videos":"My Videos",
+    "save":"Saved",
+    "publish":"Published",
+    "fork":"Forked",
+    "classroom":"Classroom",
+    "notify":{
+        "title":"Error",
+        "text":"Cannot fetch videos"
+    },
+    "notfound":["You haven't","any videos yet"]
+}

@@ -1,0 +1,21 @@
+{
+    "profile": "My Profile",
+    "avatar": "Your Avatar",
+    "upload": "Upload",
+    "avatar_desc": "Avatar helps your community recognize you",
+    "password": {
+        "reset": "Reset Password",
+        "old": "Old Password",
+        "new": "New Password",
+        "confirm": "Confirm New Password"
+    },
+    "update": "Update",
+    "name": {
+        "first": "First Name",
+        "last": "Last Name",
+        "user": "User Name"
+    },
+    "email": "Email",
+    "edit": "Edit",
+    "save": "Save Changes"
+}

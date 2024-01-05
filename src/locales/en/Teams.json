@@ -1,0 +1,29 @@
+{
+    "title1":"Dedicated Team",
+    "title2":"The passionate people behind this initiative",
+    "join":"Join Our Volunteer Team",
+    "name":"Full Name",
+    "name_p":"Enter your Full Name",
+    "email":"Email",
+    "email_p":"Enter your Email",
+    "contact":"Contact",
+    "contact_p":"Enter your Mobile Number",
+    "resume":"Resume",
+    "resume_p":"resume.pdf",
+    "description":"Short Description About You",
+    "description_p":"Enter your message here...",
+    "choose":"Choose File",
+    "submit":"Submit",
+    "invalid":{
+        "title":"Invalid Input",
+        "text":"Please fill all the required fields correctly"
+    },
+    "409":{
+        "title":"Alert",
+        "text":"We have your response, Stay tuned."
+    },
+    "200":{
+        "title":"Success",
+        "text":"We got your response"
+    }
+}

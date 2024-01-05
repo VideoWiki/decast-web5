@@ -1,0 +1,8 @@
+{
+     "notverified":"Signature not verified !",
+     "signmessage":"Sign the message to log in !",
+     "activate":"Please activate MetaMask first !",
+     "tryagain":"Please try again.",
+     "notconnected":"Wallet not connected",
+     "install":"Please install Metamask !"
+}

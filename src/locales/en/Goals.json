@@ -1,0 +1,33 @@
+{
+    "Goals":{
+        "title":"Project goals and alignment with the SDGs",
+        "sdg":{
+            "title":"SDG and SDG4",
+            "info":"The Sustainable Development Goals (SDGs), also known as the Global Goals, were adopted by all United Nations Member States in 2015 as a universal call to action to end poverty, protect the planet and ensure that all people enjoy peace and prosperity by 2030."
+        },
+        "sdg4":{
+            "title":"SDG 4",
+            "info":"deals with the importance of a sustainable education system. It targets ensuring the completion of primary and secondary education by all boys and girls and guaranteeing equal access to opportunities for access to quality technical and vocational education for everyone."
+        }
+    },
+    "Targets":{
+        "title":"The targets of SDG4 are"
+    },
+    "Vision":{
+        "title":"Vision of VideoWiki.pt",
+        "start":"We have realized that two of the greatest threats to sustainable education are:",
+        "points":[
+            ["Access to an educational institution and Highly censored and syllabus based education system."
+            ],
+            ["In most developing countries, there is no infrastructure for sustainable education neither do children have access to the few proper schooling systems available. On the contrary, most people have access to the internet. So if",
+             "\"students can’t reach the school, the school can reach the students\"." 
+            ],
+            ["With the help of the global community, we at VideoWiki.pt believe that we can remove the lack of infrastructure and qualified teachers, hence ensuring that everyone has proper education up to the global standards."
+            ],
+            ["Censorship has negatively affected the literacy and awareness of people resulting in social disputes. VideoWiki.pt is based on a",
+             "Decentralized Blockchain network",
+             "that ensures that there is no ‘single’ governing body that controls or censors any source of information, and the global community ensures a proper and equitable standard received by all."
+            ]
+        ]
+    }
+}

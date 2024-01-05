@@ -1,0 +1,16 @@
+{
+    "videos":"Videos",
+    "images":"Images",
+    "uploads":"Uploads",
+    "select":"Select one media to continue",
+    "upload_media":"Upload Media",
+    "try":"Try using the search or upload your own video.",
+    "upload_notify":{
+        "title":"Error Occured",
+        "text":"Media upload failed"
+    },
+    "search_notify":{
+        "title":"Not Found",
+        "text":"Cannot find ${mediaType}s related to this keyword"
+    }
+}

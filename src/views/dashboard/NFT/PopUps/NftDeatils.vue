@@ -1,0 +1,293 @@
+<template>
+  <div class="basic_parent_nft p-3">
+    <NftEdit
+      v-if="currStatus === 'edit'"
+      :cast_id="cast_id"
+      :currStatus="currStatus"
+      :ToggleEdit="ToggleEdit"
+    />
+    <span class="share_basic" v-if="currStatus === 'share'">
+      <div title="Public NFT Link">
+        <div class="copy-Link">
+          <p class="text-white my-2 text-xl mb-6">Share</p>
+          <div>
+            <div class="link-container">
+              <span id="datatoken" class="link-text px-2">
+                {{ `https://decast.live/public/nftdrop?cast_id=${cast_id}` }}
+              </span>
+              <button class="copy-btn rounded-md cursor-pointer" @click="copy">
+                Copy
+              </button>
+            </div>
+          </div>
+          <div>
+            <!-- <p class="hr-lines">or</p> -->
+            <div class="social-icons my-5 w-8/12 mx-auto justify-between">
+              <button
+                class="whatsapp p-5 cursor-pointer rounded-full w-16 h-16 items-center text-center"
+                @click="shareOnWhatsApp"
+              >
+                <i class="fa fa-whatsapp text-3xl m-auto"></i>
+              </button>
+              <button
+                class="twitter p-5 cursor-pointer rounded-full w-16 h-16 items-center text-center"
+                @click="shareOnTwitter"
+              >
+                <i class="fa fa-twitter text-3xl m-auto"></i>
+              </button>
+              <button
+                class="facebook p-5 cursor-pointer rounded-full w-16 h-16 items-center text-center"
+                @click="shareOnFacebook"
+              >
+                <i class="fa fa-facebook text-3xl m-auto"></i>
+              </button>
+              <button
+                class="reddit p-5 cursor-pointer rounded-full w-16 h-16 items-center text-center"
+                @click="shareOnReddit"
+              >
+                <i class="fa fa-reddit text-3xl m-auto"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex justify-end items-center w-full">
+        <vs-button
+          content="Edit NFT"
+          @click="ToggleEdit"
+          v-tippy="{ placement: 'top', arrow: true }"
+          class="BTN text-base lg:text-lg mx-2 my-1 airdrop-btn"
+        >
+          <vs-icon
+            icon-pack="feather"
+            icon="icon-edit"
+            size="20px"
+            rounded="true"
+            style="align-self: flex-end"
+          >
+          </vs-icon>
+        </vs-button>
+        <vs-button
+          @click="togglePublicNftStatus"
+          class="text-base lg:text-lg mx-2 my-1 airdrop-btn"
+        >
+          <span
+            class="flex flex-wrap align-bottom font-semibold"
+            style="color: #111111 !important"
+          >
+            {{ buttonText }}
+            <div>
+              &nbsp;
+              <span></span>
+              <vs-icon
+                content="Allow the Viewers/Attendees to mint the NFT"
+                v-tippy="{ placement: 'top', arrow: true }"
+                icon-pack="feather"
+                icon="icon-info"
+                size="12px"
+                rounded="true"
+                style="align-self: flex-end"
+              >
+              </vs-icon>
+            </div>
+          </span>
+        </vs-button>
+      </div>
+    </span>
+  </div>
+</template>
+
+<script>
+import NftEdit from '../NftEdit.vue';
+
+export default {
+  name: 'NftDetails',
+  props: ['isAirdrop', 'pub_nft_flow', 'public_nft_status', 'cast_id'],
+  data() {
+    return {
+      showCopyPopup: false,
+      localPublicNftStatus: this.public_nft_status,
+      currStatus: 'share',
+    };
+  },
+  components: {
+    NftEdit,
+  },
+  computed: {
+    buttonText() {
+      return this.localPublicNftStatus
+        ? 'Disable Claim NFT'
+        : 'Enable Claim NFT';
+    },
+  },
+  mounted() {
+    console.log(this.isAirdrop, this.pub_nft_flow, 'chek cjel');
+  },
+  methods: {
+    ToggleEdit() {
+      if(this.currStatus === 'share'){
+        this.currStatus = 'edit'
+      }else if(this.currStatus === 'edit'){
+        this.currStatus ='share'
+      }
+    },
+    showCopyModal() {
+      this.showCopyPopup = true;
+      document.getElementById('datatoken').style.color = 'black';
+    },
+    changePublicNftStatus(status) {
+      this.$emit('updatePublicNftStatus', status === 'True');
+    },
+    shareOnFacebook() {
+      const url = encodeURIComponent(
+        `https://decast.live/public/nftdrop?cast_id=${this.cast_id}`
+      );
+      const text = encodeURIComponent(
+        'Take a look at this unique digital artwork!\n'
+      );
+      const shareUrl = `https://www.facebook.com/sharer.php?u=${url}&quote=${text}`;
+      window.open(shareUrl, '_blank', 'width=550,height=420');
+    },
+    shareOnTwitter() {
+      const url = encodeURIComponent(
+        `https://decast.live/public/nftdrop?cast_id=${this.cast_id}`
+      );
+      const text = encodeURIComponent(
+        'Take a look at this unique digital artwork!'
+      );
+      const via = encodeURIComponent('yourTwitterHandle');
+      const hashtags = encodeURIComponent('example,cool,nft,DigitalArtwork');
+      const shareUrl = `https://twitter.com/intent/tweet?text=${text}&url=${url}&via=${via}&hashtags=${hashtags}`;
+      window.open(shareUrl, '_blank', 'width=550,height=420');
+    },
+    shareOnWhatsApp() {
+      const url = encodeURIComponent(
+        `https://decast.live/public/nftdrop?cast_id=${this.cast_id}`
+      );
+      const text = encodeURIComponent(
+        'Take a look at this unique digital artwork!\n'
+      );
+      const shareUrl = `whatsapp://send?text=${text} ${url}`;
+      window.open(shareUrl, '_blank', 'width=550,height=420');
+    },
+    shareOnReddit() {
+      const url = `https://www.reddit.com/submit?url=${encodeURIComponent(
+        `https://decast.live/public/nftdrop?cast_id=${this.cast_id}`
+      )}&title=${encodeURIComponent(
+        'Take a look at this unique digital artwork!\n'
+      )}`;
+      window.open(url, '_blank', 'width=550,height=420');
+    },
+    copy() {
+      console.log('clicked');
+      navigator.clipboard.writeText(
+        `https://decast.live/public/nftdrop?cast_id=${this.cast_id}`
+      );
+      document.getElementById('datatoken').style.color = 'green';
+    },
+    async togglePublicNftStatus() {
+      try {
+        this.$vs.loading();
+        const newStatus = this.localPublicNftStatus ? 'False' : 'True';
+        const res = await this.$store.dispatch('studio/publicNftActivate', {
+          cast_id: this.cast_id,
+          nft_activate: newStatus,
+        });
+        this.localPublicNftStatus = newStatus === 'True';
+        this.$emit('updatePublicNftStatus', this.localPublicNftStatus);
+        this.$vs.loading.close();
+      } catch (err) {
+        this.$vs.loading.close();
+        this.$vs.notify({
+          title: 'Error',
+          text: 'Try again!',
+          color: 'Danger',
+        });
+      }
+    },
+  },
+};
+</script>
+
+<style scoped>
+.basic_parent_nft {
+  width: auto;
+  height: auto;
+  border-radius: 12px;
+  background-color: #1d2129;
+  position: relative;
+}
+
+</style>
+
+<style>
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.whatsapp {
+  background-color: #25d366;
+  color: #fff; /* White text */
+  border: none; /* No border */
+  font-size: 20px;
+}
+
+.twitter {
+  background-color: #1da1f2;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+}
+
+.facebook {
+  background-color: #3b5998; /* Facebook blue */
+  color: #fff;
+  border: none;
+  font-size: 20px;
+}
+
+.reddit {
+  background-color: #ff4500; /* Reddit orange */
+  color: #ffffff; /* white */
+  border: none;
+  font-size: 20px;
+}
+.link-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #31394e;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.link-container span {
+  flex-grow: 1;
+}
+
+.airdrop-btn {
+  background: #d7df23 !important;
+  color: #111111 !important;
+}
+
+.copy-btn {
+  background-color: #d7df23;
+  color: #111111;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 6px;
+}
+.link-text {
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+</style>

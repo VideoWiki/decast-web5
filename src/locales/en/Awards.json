@@ -1,0 +1,44 @@
+{
+    "EUV":{
+        "euv":"#EUvsVirus Hackathon Challenge Winner",
+        "project":"Project conceptualization",
+        "info":"The European Commission launched the #EUvsVirus hackathon, a non-profit online hackathon to connect civil society, innovators, partners and buyers across Europe to develop innovative solutions to overcome coronavirus-related challenges. It is also the largest hackathon in the world. VideoWiki (“Video Wikipedia for Learners and Creators”) was one of the winning projects in the hackathon, being supported by the EUA members. It is a simple tool to create teaching content without any additional skills needed from the teachers' side. VideoWiki enables you to easily create content and make it available for everyone, with censorship protection through a Public Blockchain Network."
+    },
+
+    "Hack":{
+        "hack":"#HackBack Overall Winner 2020",
+        "info1":"#HackBack, an online hackathon organised by What The Hack aims to address the needs of small to medium enterprises (SMEs) and startups during the recovery from Covid-19 crisis.",
+        "info2": "Besides securing the first prize in #HackBack 2020, it has also been awarded for the user-friendly UX. VideoWiki platform is made keeping simplicity and ease of use in mind. It ensures continuous content consumption without any form of distraction or disturbance. The UI provides every needed tool in a simple step-by-step workflow which makes content-creation and consumption easy and effective.",
+        "ux":"UX definitions and first prize"
+    },
+
+    "News":{
+        "news":"News & Media Coverage",
+        "read":"Read More",
+        "euv":{
+            "title":"#EUvsVIRUS Hackathon results: bringing solutions to Covid-19 challenges to the next level",
+            "info":"VideoWiki: defined as a \"Video Wikipedia for Learners and Creators\", this simple tool helps teachers create teaching content without any advanced knowledge of a tool or code."
+        },
+        "videowiki":{
+            "title":"VideoWiki “Video Wikipedia for Learners and Creators",
+            "info":"We offer a tool for teachers. They copy-paste the content they want to convert to a video. A collaborative platform for learners and educators to secure learning continuity in times of restrictions and beyond."
+        },
+        "remote":{
+            "title":"Remote Working & Education - E-Learning methods & tools",
+            "info":"A collaborative platform for learners and educators to secure learning continuity in times of restrictions and beyond. A simple tool for teachers to create teaching content without any advanced knowledge of a tool or code."
+        },
+        "ua":{
+            "title":"UA Incubator Startup creates an award-winning automatic content scanning project",
+            "info":"The VideoWiki - Video Wikipedia for Learners and Creators project consists of a platform that allows the automatic conversion of teaching content into appealing digital media."
+        },
+        "sustainable":{
+            "title":"Sustainable education through digital learning spaces",
+            "info":"VideoWiki is an AI teaching assistant tool that quickly creates teaching courses in video format that can be shared online while streaming or sharing. The solution is to tackle the situation by providing the teachers with an assisted course creation tool to develop interactive media lessons."
+        },
+        "tch":{
+            "title":"VideoWiki (TCH Protocol)",
+            "info":"An open content editing platform that powers the creation and monetization of content while prioritizing IP protection. The Team recognized the need for simple text-to-video content creation to benefit the rise of online learning and enable a more immersive learning experience."
+        }
+
+    }
+}

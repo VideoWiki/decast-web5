@@ -1,0 +1,130 @@
+{
+    "Engage": {
+        "engage": "Engaging Video Classrooms",
+        "collaboration1": "Simple video collaboration between students and teachers.",
+        "collaboration2": "Set your room and start your class.",
+        "start": "Start My Room"
+    },
+    "Create": {
+        "create": "Create your Classroom",
+        "room_p": "Enter Room Name",
+        "locked": "Locked Classroom",
+        "guest": " Guest need to knock to enter locked classrooms",
+        "create_b": "Create my Room"
+    },
+    "Conference": {
+        "title1": "Video conferencing tools",
+        "title2": "don’t work for students",
+        "info": "Well, of course they don’t. Several complicated video conferencing tools serve various purposes like corporate meetings, events, webinars, and even live classes, but none is made focused to help learning, collaboration and knowledge sharing. This makes the difference. Classroom is a project to enhance your learning experience by engagement. Let's make online learning a little livelier.",
+        "learn": "Learn More"
+    },
+    "Service": {
+        "service": "Service and Technology",
+        "browser": {
+            "title": "Browser based",
+            "info": "WebRTC JavaScript application that works right from the browser to provide high quality, secure and scalable video sessions."
+        },
+        "not": {
+            "title": "Not just video",
+            "info": "It's not just about video, audio and chat. Create and share engaging content right in the stream. Draw, create, collaborate."
+        },
+        "free": {
+            "title": "Free up-to 50 students",
+            "info": "We don’t expect the class size to be more than 50 students so we kept the limit to 50. Nonetheless, if you need a wider audience, just drop a message."
+        }
+    },
+    "Different": {
+        "title": "How VideoWiki is different from others",
+        "info": "VideoWiki is focused to solve the challenge of learning continuity by providing digital options for learning. We are following the UN SDG 4 and OECD 2030 vision of education."
+    },
+    "Simple": {
+        "title": "Simple free video collaboration",
+        "info": "Get Started Now"
+    },
+    "FQ": {
+        "title": "Frequently Asked Questions",
+        "1": {
+            "q": "Why VideoWiki.pt?",
+            "ans": {
+                "start": "VideoWiki is created with Efficient E-Learning in mind. It not only overcomes the lacking of other E-Learning platforms but offers even more features.",
+                "point1_h": "Collaborative contribution",
+                "point1_p": "Every tutorial becomes outdated after a point of time and requires amendments at regular intervals. In most platforms, this becomes the sole responsibility of the creator. VideoWiki enables and encourages collaborative effort in making e-learning modules. Everyone can fork and contribute to an existing module ensuring the contents are up to date and VideoWiki’s versioning system manages that each fork is managed properly. At the same time, every contributor is rewarded with Crypto Coins.",
+                "point2_h": "Feedback and Response System",
+                "point2_p": "VideoWiki provides the opportunity of conducting virtual classes where students get the opportunity to interact directly with the teachers and discuss the topic at hand. This enables the teachers to get feedback and clear any confusion regarding the discussed curriculum.",
+                "point3_h": "Censorship Resistant",
+                "point3_p": "The Education System is responsible for shaping the future generation of the nation and thus has often been subjected to political influence and censorship. VideoWiki’s backend is based on Public Distributed Blockchain network and thus is not only Censorship Resistant but also open and publicly available to all."
+            }
+        },
+        "2": {
+            "q": "What's new about VideoWiki.pt?",
+            "ans": {
+                "start": "Now let’s have a look at how VideoWiki.pt differentiates itself in the E-Learning domain",
+                "point1_h": "Easy content creation",
+                "point1_p": "It’s often difficult to create engaging video content so video lectures often become boring and students lose interest. In VideoWiki, teachers don’t have to waste time with video editing software to make engaging tutorials. VideoWiki uses OpenSource Machine Learning Models to create a basic video for the creator which can be further modified by the creator according to the needs. It’s a quick and efficient way of making video tutorials."
+            }
+        },
+        "3": {
+            "q": "How do I create content using VideoWiki.pt?",
+            "ans": {
+                "start1": "Creating video content using the VideoWiki is extremely simple. Content creation is a difficult task whether one has to master a lot of tips and tricks to make it interesting and engaging, but in our platform, you have an AI to help you out. So, here’s how you",
+                "start2": "So, here’s how you make the content",
+                "point1": "You prepare the transcript (the script you will be following in your presentation);",
+                "point2": "You upload the transcript into our video creation platform and our AI model searches the web for Royalty Free images and video clips from the internet and creates video content for you;",
+                "point3": "In most cases, you will want to edit the content and our online editor makes it very easy to edit, add or remove contents in the video to make it best-suited for your content;",
+                "point4": "You can also upload your own created/recorded video from your local device;",
+                "point5": "Once you are satisfied with the outcome you can publish it on our Public Blockchain Network for the world to see it. You can also keep the video private if you want limited access to the video."
+            }
+        },
+        "4": {
+            "q": "Can I earn something with VideoWiki.pt?",
+            "ans": {
+                "quote": "“Teachers are pillar of the society, builders of the nation”",
+                "writer": "Rosaiah",
+                "para": "Everyone who is contributing to the VideoWiki library by creating content is a Teacher, and we compensate them for their efforts by paying them using Cryptocurrency. This cryptocurrency can be used in an exchange to convert it into native-currency or can be directly used in other online platforms supporting payment in form of cryptocurrency."
+            }
+        },
+        "5": {
+            "q": "Is cryptocurrency any different from real money?",
+            "ans": {
+                "short": "The short answer is",
+                "no": "\"NO\"",
+                "para1": "The traditional currency we use to buy our morning coffee is called Fiat Currency, based on the Centralised Banking System which has one governing body that controls the currency. Cryptocurrency, on the other hand, is a part of the Decentralised Finance (Defi) System which is based on the principle that there is no governing body. Every computer connected to the system is a node and every node participates in the public blockchain network which uses Cryptocurrency as an incentive for each node to be a part of the network.",
+                "so": "So,",
+                "can": "can I use cryptocurrency in the market?",
+                "yes": "Yes and No.",
+                "para2": "Just like there are different types of currency across nations and one country’s currency can’t be directly used in a local store of another country, the same is true for crypto. You have to use an exchange to convert your cryptocurrency into the native currency you are interested in using. A direct crypto payment can only be done when the vendor accepts payment in crypto."
+            }
+        },
+        "6": {
+            "q": "Do I have to pay for the course?",
+            "ans": {
+                "private": "Private",
+                "para1": "You ONLY pay for the course when you want to create a",
+                "para2": "fork of the repo. Private forks limit the access of the repo (video course) to only the people you provide access to. In other words, you make a private copy of the video tutorial, where the changes you make are not publicly available to everyone. Making a private fork requires you to make payment in cryptocurrency.",
+                "para3": "There is no Price for viewing and adding to publicly available content."
+            }
+        }
+    },
+    "userList": [
+        {
+            "name": "AB John",
+            "desc": "Teacher",
+            "review": "At our University, VideoWiki gives the teachers the ability to digitize their learning content without technical knowledge or using advanced tools."
+        },
+        {
+            "name": "CD Paula",
+            "desc": "L&D HR",
+            "review": "VideoWiki could find use-cases in many segments where content is generated rapidly, modified, and distributed in usual media formats."
+        },
+        {
+            "name": "Rui Couto",
+            "desc": "WPC Ambassador",
+            "review": "The project has the potential to become a Wikipedia for media. Creating the next editable Encyclopedia for video collaboration instead of text."
+        },
+        {
+            "name": "Bhaskar Dutta",
+            "desc": "BlockChain Developer",
+            "review": "Both educational and corporate benefits could make the solution sustainable and beneficial. Decentralization of such solution also makes it a trusted, transparent and impartial knowledge repository."
+        }
+    ]
+}

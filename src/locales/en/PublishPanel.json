@@ -1,0 +1,11 @@
+{
+    "title":"Title",
+    "field_require":"This field is required",
+    "description":"Description",
+    "enter_video":"Enter video description",
+    "video_access":"Video Access",
+    "paid":"Paid",
+    "free":"Free",
+    "tags":"Tags",
+    "enter_tags":"Enter Tags"
+}

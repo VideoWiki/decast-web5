@@ -1,0 +1,68 @@
+const networks = {
+  4: {
+    chainId: '0x4',
+    chainName: 'Rinkeby',
+    currencyName: 'ether',
+    symbol: 'ETH',
+    rpcUrl: 'https://rinkey.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161',
+    blockExplorerUrl: 'https://rinkey.etherscan.io',
+  },
+  1: {
+    chainId: '0x1',
+    chainName: 'Ethereum Mainnet',
+    currencyName: 'ether',
+    symbol: 'ETH',
+    rpcUrl: 'https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161',
+    blockExplorerUrl: 'https://etherscan.io',
+  },
+  137: {
+    chainId: '0x13881',
+    chainName: 'Mumbai',
+    currencyName: 'MATIC',
+    symbol: 'Mumbai',
+    rpcUrl: 'https://rpc-mumbai.maticvigil.com',
+    blockExplorerUrl: 'https://telos.net/',
+  },
+  100: {
+    chainId: '0x64',
+    chainName: 'Gnosis Chain',
+    currencyName: 'xDai',
+    symbol: 'xDai',
+    rpcUrl: 'https://rpc.gnosischain.com/',
+    blockExplorerUrl: 'https://blockscout.com/xdai/mainnet/',
+  },
+  40: {
+    chainId: '0x28',
+    chainName: 'Telos EVM Mainnet RPC',
+    currencyName: 'TLOS',
+    symbol: 'TLOS',
+    rpcUrl: 'https://mainnet.telos.net/evm',
+    blockExplorerUrl: 'https://telos.net/',
+  },
+  41: {
+    chainId: '0x29',
+    chainName: 'Telos EVM Testnet RPC',
+    currencyName: 'TLOS',
+    symbol: 'TLOS',
+    rpcUrl: 'https://testnet.telos.net/evm',
+    blockExplorerUrl: 'https://testnet.teloscan.io',
+  },
+  5: {
+    chainId: '0x5',
+    chainName: 'Goerli Testnet RPC',
+    currencyName: 'Goerli',
+    symbol: 'Goerli',
+    rpcUrl: 'https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161',
+    blockExplorerUrl: 'https://telos.net/',
+  },
+  11155111: {
+    chainId: '0xaa36a7', 
+    chainName: 'Sepolia Test Network',
+    currencyName: 'Sepolia',
+    symbol: 'SepplETH ',
+    rpcUrl: 'https://rpc.sepolia.ethpandaops.io',
+    blockExplorerUrl: 'https://sepolia.etherscan.io',
+  },
+};
+
+export default networks;

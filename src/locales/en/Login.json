@@ -1,0 +1,18 @@
+{
+     "videowiki": "Videowiki",
+     "login_v": "Login VideoWiki",
+     "email": "Email",
+     "email_p": "Enter email address",
+     "password": "Password",
+     "password_p": "Enter password",
+     "remember": "Remember Me",
+     "forgot": "Forgot Password?",
+     "login": "Login",
+     "account": "You don't have an account ?",
+     "create": "Create Account",
+     "notify": {
+          "title": "Login Attempt",
+          "text": "You are already logged in!"
+     },
+     "principles": "Data policies aligned with Fair Data Society Principles"
+}
