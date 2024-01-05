@@ -1,0 +1,25 @@
+{
+    "Write":{
+        "write":"Write Us",
+        "name":"Full Name",
+        "name_p":"Your name",
+        "email":"Email",
+        "email_p":"Your email",
+        "message":"Message",
+        "message_p":"Your message",
+        "send":"Send Message"
+    },
+    
+    "Find":{
+        "find":"Find us",
+        "portugal":"Portugal",
+        "portugal_address":"Technologies PCI - Creative Science Park, 3830-352 Ílhavo, Portugal",
+        "phone":"Phone",
+        "phone_v":"+011-667-4647",
+        "email":"Email",
+        "email_v":"support@videowiki.pt",
+        "india":"India",
+        "india_address":"SG alpha tower, Tower 2, 302, Vasundhara, Sector 9, Ghaziabad"
+    }
+
+}

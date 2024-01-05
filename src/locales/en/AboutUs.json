@@ -1,0 +1,32 @@
+{
+    "About": {
+        "title": "About Us",
+        "info1": "We are a diversified team of dedicated and enthusiastic solution architects, developers, and experts with the belief that online education of the future requires special tools to facilitate learning to all humanity, equally and equitably.",
+        "info2": "VideoWiki wants to solve the current challenge of digital enablement, engagement, online immersion, and gamification of the online education system by providing content creation tools and online rooms.",
+        "info3": "VideoWiki, an",
+        "info4": "EIC recognized Start-up project,",
+        "info5": "won the #EUvsVirus Hackathon in the Business Continuity Remote Working & Education category."
+    },
+    "Team": {
+        "title": "Our Awesome Team",
+        "info": "Developed as a response to the education continuation challenge from the EU Commission, VideoWiki is a product designed to extend the boundaries of digital education and accessibility for all alike. It was a solution envisioned and developed by",
+        "names": [
+            "Shivam Dhawan",
+            "(CTO) and",
+            "Nataliia Rheskava",
+            "(CIO), along with",
+            "Rui Couto",
+            "(Chief Accessibility Officer) and ",
+            "Sumit Rathore",
+            "(Chief Artificial Intelligence Officer)."
+        ]
+    },
+    "Video": {
+        "title": "Let's Create Your Video",
+        "info1": "A collaborative platform for learners and educators to secure learning continuity in times of restrictions and beyond.",
+        "info2": "A simple tool for teachers to create teaching content without any advanced knowledge of a tool or code. They create videos by using media and graphics from open stock libraries and merge it with their own content, to keep it engaging and diverse.",
+        "info3": "Consider the video creation tool as a",
+        "info4": "\"Video Wikipedia for learners and Creators\".",
+        "button": "Create a Video"
+    }
+}

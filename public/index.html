@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="A simple tool for teachers to create teaching content without any advance knowledge of a tool or code. They create by using various media and graphics from the open stock libraries and merging it with their own content to keep it engaging and diverse."
+    />
+    <meta
+      name="keywords"
+      content="Video, Editing, Teaching, Online Course, Media"
+    />
+    <meta property="og:title" content="Cast Decast" />
+    <meta property="og:image" content="<%= BASE_URL %>vlogo.png" />
+    <meta property="og:url" content="https://cast.video.wiki.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Cast Decast" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet" />
+    <link rel="icon" href="<%= BASE_URL %>vlogo.png" />
+    <link rel="stylesheet" type="text/css" href="<%= BASE_URL %>loader.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.myth.theoplayer.com/ab59a067-ee86-4730-be44-d4442ba60e1b/ui.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@600&family=Space+Grotesk&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&family=Space+Grotesk&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet" />
+    <link rel="icon" href="<%= BASE_URL %>vlogo.png" />
+    <link rel="stylesheet" type="text/css" href="<%= BASE_URL %>loader.css" />
+    <link rel="icon" href="<%= BASE_URL %>vlogo.png" />
+    <link rel="stylesheet" type="text/css" href="<%= BASE_URL %>loader.css" />
+    <title>Cast Decast</title>
+  </head>
+  <body style="margin: 0 !important; padding: 0 !important;">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-N3RT6VR"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <noscript>
+      <strong
+        >We're sorry but Decast doesn't work properly without JavaScript
+        enabled. Please enable it to continue.</strong
+      >
+    </noscript>
+    <div class="loader-container" id="loading-bg">
+      <div class="svg-container">
+        <img src="<%= BASE_URL %>vw.svg" alt="Logo" />
+      </div>
+    </div>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-N3RT6VR');
+    </script>
+    <!-- End Google Tag Manager -->
+  </body>
+</html>

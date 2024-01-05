@@ -1,0 +1,23 @@
+{
+    "title1":"Subscribe to Our Newsletter",
+    "title2":"Subscribe to our Newsletter and stay updated about VideoWiki!",
+    "placeholder":"Email Address",
+    "button":"Subscribe",
+    "Response":{
+        "409":{
+            "title":"Alert",
+            "text":"You have already Subscribed with this Mail Id",
+            "color":"warning"
+        },
+        "200":{
+            "title":"Success",
+            "text":"Subscribed",
+            "color":"success"
+        }
+    },
+    "Valid":{
+        "title":"Invalid Input",
+        "text":"Please provide a valid Mail Id",
+        "color":"danger"
+    }
+}

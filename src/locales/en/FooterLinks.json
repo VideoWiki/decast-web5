@@ -1,0 +1,36 @@
+{
+    "Product": [
+        "Editor",
+        "Room",
+        "Cast"
+    ],
+    "Company": [
+        "About VideoWiki",
+        "Team",
+        "Contact Us"
+    ],
+    "Ecosystem": {
+        "awards": "Awards",
+        "integrations_head": "Integration",
+        "integrations_list": [
+            "Ocean Data MarketPlace",
+            "Ms-Teams",
+            "Utrust Payment"
+        ],
+        "partners": "Partners"
+    },
+    "Resources": [
+        "Study with VideoWiki",
+        "Blog",
+        "VideWiki Certified",
+        "Help Center",
+        "Library"
+    ],
+    "T&C": [
+        "Terms and Conditions",
+        "Privacy Policy",
+        "US Privacy Laws",
+        "Children's Privacy Laws",
+        "Inclusion and Accessibility policy"
+    ]
+}

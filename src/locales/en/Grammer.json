@@ -1,0 +1,232 @@
+ {
+    "connectWallet": "Connect Wallet",
+    "disconnect": "Disconnect",
+    "login": "Login",
+    "createVideo": "Create a Video",
+    "title": "title",
+    "description": "Description",
+    "video": "Video",
+    "createScenes": "Create Scenes",
+    "text": "Text",
+    "upload": "Upload",
+    "url": "URL",
+    "script": "Script",
+    "library": "Library",
+    "course": "Cousre",
+    "sound": "Sound",
+    "publish": "Publish",
+    "uploadtitle": "Upload a PPT or PDF File",
+    "uploadLabel": "Choose a file or drag it here",
+    "urltitle": "Create Video From URL",
+    "urlText": "Enter your URL Here",
+    "urlType": "You can submit medium Link & blog Link etc",
+    "urlPlaceholder": "Paste URL here",
+    "go": "Go",
+    "guidetitle": "How it Works",
+    "textdescription": "Copy paste your script into the video script box alongwith a suitable title in the video title . Click Create Scenes to breakdown your script into video snippets.",
+    "uploaddescription": "Directly convert a ppt or pdf file into a video by choosing the file and dragging it in the box.",
+    "urldescription": "Copy paste the URL of an external blog post or newletter and change them into a video content",
+    "spitTypeShort": "Short Scenes",
+    "spitTypeLong": "Long Scenes",
+    "libraryTabDesc": "Select one media to continue",
+    "scene": "Scene",
+    "scenes": "Scenes",
+    "videos": "Videos",
+    "images": "Images",
+    "uploads": "Uploads",
+    "search": "Search",
+    "uploadSceneMedia": "Upload Media",
+    "courseTabDesc": "You can add subtitle to your videos",
+    "skipStep": "Skip this step",
+    "subtitles": "Subtitles",
+    "animation": "Animation",
+    "editScript": "Edit Scene Script",
+    "addSubtitle": "Add Text Overlay to Scene",
+    "add": "Add",
+    "delete": "Delete",
+    "remove": "Remove",
+    "soundTabDesc": "You can add Sound to your videos",
+    "narration": "Narration",
+    "music": "Music",
+    "startRecording": "Start Recording",
+    "audio": "Audio",
+    "voice": "Voice",
+    "tags": "Tags",
+    "access": "Access",
+    "free": "Free",
+    "paid": "Paid",
+    "preview": "Preview",
+    "note": "Note",
+    "previewNote":"This is a low quality video for rendering purposes only, when your are ready, extract a high quality video by publishing it",
+    "download": "Download",
+    "enter": "Enter",
+    "select": "Select",
+    "track": "Track",
+    "noTrack": "No track selected",
+    "genre": "Genre",
+    "yes": "Yes",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "previewAgainText": "Do you want to generate the Preview again ?",
+    "previewLoading": "Generating Preview...",
+    "beforeLibraryAlert": "Add a video script and create scenes",
+    "beforeCourseAlert": "Select videos for your script",
+    "beforeSoundAlert": "Prepare your scenes/course",
+    "beforePublishAlert": "Add voice/narration to your scenes/course",
+    "transaction": "Transaction",
+    "processing": "Processing",
+    "processingWarning": "Please don\"t close this tab, transaction under processing.",
+    "retry": "Retry",
+    "failed": "Failed",
+    "rejected": "Rejected",
+    "txModal": {
+      "publish": {
+        "processing": [
+          {
+            "title": "Create a Content ID",
+            "description":"Assign a unique identifier to your content. Write it on decentralized ledger.",
+            "success": "Data-Token is created"
+          },
+          {
+            "title": "Publish on MarketPlace",
+            "description": "Publishing the asset on marketplace with your unique Decentralized ID (called a DID or DDO)",
+            "success": "Asset published to OCEAN"
+          },
+          {
+            "title": "Create link for Paid Access",
+            "description":" Creating access tokens for the published content, using which people will buy/fork your content.",
+            "success": "Tokens Minted"
+          },
+          {
+            "title": "Permission to sell your content",
+            "description":"Note that we published content under your name with full rights to the content. Hence we need your permission to sell the access token on your behalf.",
+            "success": "Approved"
+          },
+          {
+            "title": "Create Exchange Key",
+            "description": "Creating an exchange to sell the access token",
+            "success": "Exchange Created. Publish Complete"
+          }
+        ],
+        "rejected": [
+          {
+            "title": "Aborting Data Token creation",
+            "description": ""
+          },
+          {
+            "title": "Publishing rejected",
+            "description": ""
+          },
+          {
+            "title": "Minting of tokens was rejected",
+            "description": ""
+          },
+          {
+            "title": "Exchange was not approved",
+            "description": ""
+          },
+          {
+            "title": "Exchange creation was rejected",
+            "description": ""
+          }
+        ],
+        "failed": [
+          {
+            "title": "Failed to create data-token. Aborting creation",
+            "description": ""
+          },
+          {
+            "title": "Publishing Failed.",
+            "description": ""
+          },
+          {
+            "title": "No tokens will be minted",
+            "description": ""
+          },
+          {
+            "title": "Exchange was not approved",
+            "description": ""
+          },
+          {
+            "title": "Exchange failed to create",
+            "description": ""
+          }
+        ]
+      },
+      "buy": {
+        "processing": [
+          {
+            "title": "Permission to exchange your OCEAN tokens",
+            "description":"We need your permission so that we can exchange your OCEAN tokens for the datatokens",
+            "success": "Approved"
+          },
+          {
+            "title": "Swaping your token",
+            "description": "Calling smart contract to exchange the tokens",
+            "success": "Token Swapped"
+          }
+        ],
+        "rejected": [
+          {
+            "title": "Permission Denied by the user",
+            "description": ""
+          },
+          {
+            "title": "Swap rejected by the user",
+            "description": ""
+          }
+        ],
+        "failed": [
+          {
+            "title": "Exchange failed",
+            "description": ""
+          },
+          {
+            "title": "Swap failed",
+            "description": ""
+          }
+        ]
+      },
+      "download": {
+        "processing": [
+          {
+            "title":"Start download service and sign the transaction to start the download process",
+            "description":"Register your account to the download service and if already registered, sign using metamask to authenticate your account.",
+            "success": "Download Started"
+          }
+        ],
+        "rejected": [
+          {
+            "title": "Transaction Rejected, aborting the service",
+            "description": ""
+          }
+        ],
+        "failed": [
+          {
+            "title": "Starting the download service failed",
+            "description": ""
+          }
+        ]
+      }
+    },
+    "error": {
+      "sentenceDetection": "Sentence Detection",
+      "keywordExtraction": "Keyword Extraction",
+      "videoListing": "Video Listing",
+      "upload": "",
+      "addSubtitle": "subtitle merge failed",
+      "videoSearch": "No Videos Found",
+      "imageSearch": "No Images Found",
+      "addVoice": "audio merge failed",
+      "publish": "video publish failed",
+      "concat": "video concat failed",
+      "saveVideo": "video save failed",
+      "download": "download failed"
+    },
+    "success": {
+      "publish": "",
+      "save": "",
+      "download": ""
+    }
+  }

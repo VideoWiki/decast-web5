@@ -1,0 +1,17 @@
+{
+    "videowiki":" VideoWiki; Now",
+    "ms":"Microsoft Teams Plugin",
+    "About":{
+        "about":"About Our Plugin",
+        "title1":"VideoWiki, now as a Teams plugin in the Microsoft Apps market place, helps users to:"
+    },
+    "How":{
+        "how":"How It Works",
+        "info":"VideoWiki uses AI-based text classification methods, we can identify the context of the content and make queries to public video media libraries using APIs. These can be given back to the teachers as an assisted course creation tool to develop interactive digital media."
+    },
+    "Query":{
+        "query":"For query, help and support",
+        "contact":"Contact Us"
+    }
+    
+}
