@@ -21,8 +21,6 @@
     npm run start
     ```
 
-Make sure to replace "your-username" with your actual GitHub username.
-
 ## Backend Repository
 
 For the backend of WEB5, you can find the repository [here](https://github.com/VideoWiki/web5-backend-node).
