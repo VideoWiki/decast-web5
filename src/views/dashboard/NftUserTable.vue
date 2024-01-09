@@ -184,7 +184,7 @@ export default {
       // console.log(userDid, orgDidKeySet, 'dkdkk');
       try {
         const response = await axios.post(
-          'https://vc-event.onrender.com/api/issue-vc',
+          'https://amanbishnoi.tech/api/issue-vc',
           {
             userDid,
             orgDidKeySet,

@@ -576,7 +576,7 @@ export default {
     async setDid() {
       try {
         const res = await axios.get(
-          'https://vc-event.onrender.com/api/issue-did'
+          'https://amanbishnoi.tech/api/issue-did'
         );
         const data = res.data.did;
         const obj = res.data;
@@ -590,7 +590,7 @@ export default {
     async setDidOrg() {
       try {
         const res = await axios.get(
-          'https://vc-event.onrender.com/api/issue-did-to-org'
+          'https://amanbishnoi.tech/api/issue-did-to-org'
         );
         const data = res.data.keys;
         const obj = res.data;

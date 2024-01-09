@@ -487,7 +487,7 @@ export default {
       try {
         this.$vs.loading();
         const response = await axios.post(
-          'https://vc-event.onrender.com/api/validate-vc',
+          'https://amanbishnoi.tech/api/validate-vc',
           {
             vcJWT,
           },
